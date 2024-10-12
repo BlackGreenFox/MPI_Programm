@@ -39,7 +39,7 @@ int main(int argc, char** argv)
 			printf("Process %d don't have a %s neighbour.\n",
 				my_rank, neighbours_names[i]);
 		else
-			printf("Process %d don't have a %s neighbour: process %d.\n",
+			printf("Process %d have a %s neighbour: process %d.\n",
 				my_rank, neighbours_names[i], neighbours_ranks[i]);
 	}
 
